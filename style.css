@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* start header */
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 -10px 468px 100px black inset;
+    padding: 25px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 3.5rem;
+}
+header nav .rightnav{
+    width: 18%;
+}
+nav div img{
+    width: 50%;
+}
+nav div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+nav div ul li{
+    list-style-type: none;
+    width: 44%;
+}
+nav div ul li a{
+    text-decoration: none;
+    background-color: #e50914;
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+nav div ul li select{
+    width: 100%;
+    height: 33px;
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid white;
+    border: none;
+    outline: none;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    font-size: 15px;
+    color: white;
+    align-self: center;
+}
+
+
+header .content{
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    color: white;
+}
+header .content h2{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+}
+header .content .anytime{
+    font-weight: 900;
+    font-size: 25px;
+}
+header .content .Ready{
+    width: 100%;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+}
+
+header .content .btn .divinput{
+    width: 70%;
+}
+header .content .btn .divbutton{
+    width: 30%;
+}
+header .content .btn input{
+    width: 100%;
+    height: 59px;
+    padding: 8px;
+    border: none;
+}
+header .content .btn button{
+    background-color: #e50914;
+    color: white;
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 8px;
+}
+.btn{
+    width: 50%;
+    align-self: center;
+    display: flex;
+}
+/* end header */
+
+/* start  smart tv */
+.smart_tv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    border-top: 8px solid #222;
+    border-bottom: 8px solid #222;
+    padding: 25px;
+}
+.smart_tv .leftside{
+    width: 40%;
+    align-self: center;
+}
+.leftside h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.leftside p{
+    font-size: 30px;
+}
+.smart_tv .rightside{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.smart_tv .rightside img{
+    width: 90%;
+    z-index: 2;
+}
+
+.smart_tv .rightside video{
+    width: 65%;
+    position: relative;
+    right: 78%;
+    bottom: 2%;
+}
+/* end  smart tv */
+
+/* start  download */
+
+.download{
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    border-bottom: 8px solid #222;
+    height: 70vh;
+}
+.download .leftside{
+    width: 40%;
+}
+.download .rightside{
+    width: 40%;
+}
+.download .leftside .bg_img img{
+    width: 100%;
+}
+.download .leftside .img_download{
+    background-color: black;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #222;
+    border-radius: 10px;
+    padding: 0.5em 0.75em;
+    position: relative;
+    bottom: 130px;
+    left: 71px;
+}
+.download .leftside .img_download div img{
+    width: 55px;
+    height: 80px;
+    align-self: center;
+}
+.download .leftside .img_download div p{
+    font-size: 15px;
+    font-weight: 900;
+    width: 66%;
+    align-self: center;
+}
+.download .leftside .img_download div p span{
+    color: #0071eb;
+}
+.download .leftside .img_download div{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.download .leftside .img_download i{
+    color: white;
+    font-size: 30px;
+    align-self: center;
+}
+.download .rightside{
+    align-self: center;
+}
+.download .rightside h1{
+    font-size: 39px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.download .rightside p{
+    font-size: 30px;
+}
+
+/* end  download */
+
+/* start section watch */
+.Watch .rightside video{
+    width: 55%;
+    bottom: 58px;
+    right: 73%;
+}
+/* end section watch */
+
+/* start section kids */
+
+.kids{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 25px;
+    border-bottom: 8px solid #222;
+}
+.kids .leftside{
+    width: 40%;
+}
+.kids .leftside img{
+    width: 85%;
+}
+.kids .rightside{
+    align-self: center;
+    width: 40%;
+}
+.kids .rightside h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.kids .rightside p{
+    font-size: 23px;
+}
+
+/* end section kids */
+
+/* start questions */
+
+#questions{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    height: 80vh;
+}
+
+#questions h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+#questions #first_question,#questions #second_question{
+    width: 70%;
+    margin: auto;
+    background-color: #303030;
+    height: 69px;
+    margin-bottom: 10px;
+
+}
+#questions #first_question h2,#questions #second_question h2{
+    line-height: 68px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#questions #first_question h2 #first_plus,#questions #second_question h2 #second_plus{
+    font-size: 35px;
+    cursor: pointer;
+    position: absolute;
+    right: 242px;
+    width: 864px;
+    text-align: end;
+}
+#questions #first_question #first_reply,#questions #second_question #second_reply{
+    background-color: #303030;
+    border-top: 0.5px solid black;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    /* transition-duration: 0.2s; */
+}
+/* start part js */
+#questions #first_question #first_reply .para1,#questions #second_question #second_reply .para1{
+    font-size: 25px;
+    padding: 25px 25px 0 25px;
+}
+#questions #first_question #first_reply .para2,#questions #second_question #second_reply .para2{
+    font-size: 25px;
+    padding: 5px 25px 25px 25px;
+}
+#questions #second_question #second_reply .para{
+    font-size: 25px;
+    padding: 25px 25px 25px 25px;
+}
+#questions #first_questions h2 #first_plus.is-rotate{
+    transform: rotate(135deg);
+    color: red;
+}
+#questions #first_question #first_reply.is-reply,#questions #second_question #second_reply.is-reply{
+    max-height: 300px;
+    transition-duration: 0.5s;
+}
+#questions #first_question.is-margin{
+    margin-bottom: 260px;
+}
+#questions #second_question.is-margin{
+    margin-bottom: 160px;
+}
+#questions.marg-questions{
+    height: 100vh;
+}
+
+/* end part js */
+#questions .content{
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 30px;
+}
+#questions .content .Ready{
+    width: 100%;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+}
+#questions .content .btn .divinput{
+    width: 70%;
+}
+#questions .content .btn .divbutton{
+    width: 30%;
+}
+#questions .content .btn input{
+    width: 100%;
+    height: 59px;
+    padding: 8px;
+    border: none;
+}
+#questions .content .btn button{
+    background-color: #e50914;
+    color: white;
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 8px;
+}
+#questions .btn{
+    width: 50%;
+    align-self: center;
+    display: flex;
+    margin-top: 20px;
+}
+/* end questions */
+
+/* start footer */
+footer{
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    border-top: 8px solid #222;
+}
+footer .links_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+}
+footer .first,footer .second,footer .third, footer .fourth{
+    width: 30%;
+    display: flex;
+    align-self: center;
+}
+footer .fourth{
+    height: 144px;
+}
+footer ul li{
+    padding: 8px;
+    list-style-type: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #737373;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+footer .first ul li select{
+    width: 70%;
+    height: 33px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+footer .first ul .first_list{
+    margin-bottom: 13px;
+}
+
+/* end footer */

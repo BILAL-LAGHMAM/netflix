@@ -1,0 +1,21 @@
+const questions = document.getElementById("questions")
+const first_plus = document.getElementById("first_plus")
+const second_plus = document.getElementById("second_plus")
+const first_reply = document.getElementById("first_reply")
+const second_reply = document.getElementById("second_reply")
+const first_question = document.getElementById("first_question")
+const second_question = document.getElementById("second_question")
+
+first_plus.addEventListener("click", ()=>{
+    questions.classList.toggle("marg-questions")
+    first_reply.classList.toggle("is-reply")
+    first_question.classList.toggle("is-margin")
+    plus.classList.toggle("is-rotate")
+})
+second_plus.addEventListener("click", ()=>{
+    second_reply.classList.toggle("is-reply")
+    second_question.classList.toggle("is-margin")
+    // plus.classList.toggle("is-rotate")
+})
+if (first_plus.addEventListener("click", ()=>{}))
+    alert("ok")
